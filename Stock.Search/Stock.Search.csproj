@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Stock.Core\Stock.Core.csproj" />
+    <ProjectReference Include="..\Stock.Services\Stock.Services.csproj" />
+  </ItemGroup>
+
+</Project>
