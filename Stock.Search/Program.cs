@@ -20,7 +20,7 @@ namespace Stock.Search
             SetRunnerSettings(args);
             var indexService = new ElasticSearchIndexService();
             await indexService.IndexDocuments();
-            Console.WriteLine("************** Indexing Complete **************");
+            Console.WriteLine("************** Indexing Complete ***************");
             if (args.Length == 0)
             {
                 Console.WriteLine("Please enter searchkeyword ex.(Internet of Things)");
